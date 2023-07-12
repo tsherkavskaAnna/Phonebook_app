@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 2,
+      "description": "study angular",
+      "done": false,
+      "selected": false
+    },
+    {
+      "id": 3,
+      "description": "walk 10 km",
+      "done": false,
+      "selected": false
+    },
+    {
+      "id": 5,
+      "description": "enjoy my life",
+      "done": false,
+      "selected": false
+    },
+    {
+      "id": "cd4cdf04-8d2d-4727-867c-74d18c9aa8df",
+      "description": "smile every day",
+      "done": false,
+      "selected": false
+    },
+    {
+      "id": "5b301a04-f933-40bb-94e8-2531e3daa67e",
+      "description": "read new book",
+      "done": false,
+      "selected": false
+    }
+  ]
+}
