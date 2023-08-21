@@ -93,6 +93,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "docs",
+            "netlifyToken": "n",
+            "siteId": "n"
+          }
         }
       }
     }
