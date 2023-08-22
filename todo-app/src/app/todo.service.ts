@@ -8,7 +8,7 @@ import { Item } from './item';
 })
 export class TodoService {
 
-  serviceURL: string = 'http://localhost:3000/tasks'
+  serviceURL: string = 'https://shrouded-abrupt-airbus.glitch.me/api/tasks'
 
 
   constructor(private http: HttpClient) {}
@@ -16,12 +16,12 @@ export class TodoService {
   getAllItem() : Observable<Item[]> {
     return this.http.get<Item[]>(this.serviceURL)
    }
-  
+
 
  addItem(item: Item) : Observable<Item> {
   return this.http.post<Item>(this.serviceURL, item)
  }
- 
+
  deleteItem(item: Item) : Observable<Item> {
   return this.http.delete<Item>(this.serviceURL + '/' + item.id);
  }
